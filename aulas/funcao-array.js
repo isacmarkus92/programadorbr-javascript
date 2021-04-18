@@ -1,13 +1,13 @@
-// var alunos = new Array("Igor", "Jose", "Marcos", "Mariana")
+var alunos = new Array("Igor", "Jose", "Marcos", "Mariana")
 
-// console.log(alunos[0])
-//primeira forma de fazer um Array
+console.log(alunos[0])
+    //primeira forma de fazer um Array
 
-// var alunos = ["Igor", "Jose", "Marcos", "Mariana"]
+var alunos = ["Igor", "Jose", "Marcos", "Mariana"]
 
-// console.log(alunos.length)
-// console.log(alunos[0])
-// segunda forma de fazer Array
+console.log(alunos.length)
+console.log(alunos[0])
+    //segunda forma de fazer Array
 
 var alunos = ["Igor", "José", "Marcos", "Mariana",
     "Joana", "Leo", "João"
