@@ -56,7 +56,7 @@ for (var aluno of turma) {
 
 //Ainda existe uma forma de usarmos um objeto por meio de um método construtor
 
-function alunoClasse(nome, n1, n2) {
+function alunoC(nome, n1, n2) {
     this.nome = nome;
     this.nota1 = n1;
     this.nota2 = n2;
@@ -66,7 +66,23 @@ function alunoClasse(nome, n1, n2) {
     }
 }
 
-var a = new alunoClasse("Jenifer", 9, 10)
-var b = new alunoClasse("Geraldo", 10, 5)
 
-console.log(a, b, this.media);
+var a = new alunoC("Jenifer", 9, 10)
+var b = new alunoC("Geraldo", 10, 5)
+
+console.log(a);
+
+//Resumo de objetos
+
+//* As chaves presentes sempre indicam que é um objeto'
+
+var a = {}
+
+//o coneteúdo dentro das chaves demonstram se ele vai ser lido ou não
+
+var a = {
+    nome: "Jer",
+    sobrenome: "son"
+}
+
+console.log(a)
