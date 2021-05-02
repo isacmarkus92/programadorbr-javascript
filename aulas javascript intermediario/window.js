@@ -6,4 +6,5 @@ window.console.log("Teste");
 
 console.log("Outro teste");
 
-alert("Essa página acabou de ser iniciada")
+//Document variável ou propriedade do objeto window
+console.log(document);
